@@ -30,7 +30,6 @@ const hamburger = document.querySelector('.burger'),
       menuLinkThree = document.getElementById('3');
       menuLinkFour = document.getElementById('4');
       menuLinkFive = document.getElementById('5');
-      menuLinkSix = document.getElementById('6');
 
 hamburger.addEventListener('click', () =>  {
     menu.classList.add('active');
@@ -57,10 +56,6 @@ menuLinkFour.addEventListener('click', () =>  {
     closeElem.classList.remove('active');
 });
 menuLinkFive.addEventListener('click', () =>  {
-    menu.classList.remove('active');
-    closeElem.classList.remove('active');
-});
-menuLinkSix.addEventListener('click', () =>  {
     menu.classList.remove('active');
     closeElem.classList.remove('active');
 });
